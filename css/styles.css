@@ -294,7 +294,7 @@ p {
   top: 0;
   left: 0;
   z-index: 999;
-  background: linear-gradient(225deg, #ea1d22, #b31317);
+  background: linear-gradient(225deg, rgb(2, 2, 2), rgb(9, 9, 9));
 }
 
 .bg-lines {
