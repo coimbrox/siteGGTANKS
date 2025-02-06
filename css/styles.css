@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Mukta", sans-serif;
 }
 
@@ -46,12 +46,12 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   overflow: none;
 }
 
@@ -59,14 +59,14 @@ p {
   .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding-top: 100px;
     height: auto;
     overflow: hidden;
@@ -80,21 +80,21 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 960px) {
   .container-item-1 {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
@@ -110,20 +110,20 @@ p {
 
 .align-items-center {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .spiderman {
   -webkit-transform: translate3d(-190px, -20px, 0);
-          transform: translate3d(-190px, -20px, 0);
+  transform: translate3d(-190px, -20px, 0);
   width: 140%;
 }
 
 @media screen and (max-width: 960px) {
   .spiderman {
     -webkit-transform: translate3d(0, -20px, 0);
-            transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
     width: 100%;
   }
 }
@@ -140,7 +140,7 @@ p {
   border-radius: 3px;
   text-align: center;
   -webkit-transform: skewX(-10deg);
-          transform: skewX(-10deg);
+  transform: skewX(-10deg);
   -webkit-transition: 0.7s ease;
   transition: 0.7s ease;
   text-transform: uppercase;
@@ -184,10 +184,11 @@ p {
 
 .btn:hover {
   -webkit-transform: skewX(-10deg) scale(1.05);
-          transform: skewX(-10deg) scale(1.05);
+  transform: skewX(-10deg) scale(1.05);
 }
 
-.btn:hover::after, .btn:hover::before {
+.btn:hover::after,
+.btn:hover::before {
   opacity: 1;
 }
 
@@ -202,7 +203,7 @@ p {
   padding: 10px 32px;
   border-radius: 3px;
   -webkit-transform: skewX(-10deg);
-          transform: skewX(-10deg);
+  transform: skewX(-10deg);
   -webkit-transition: 0.7s ease;
   transition: 0.7s ease;
   text-transform: uppercase;
@@ -228,7 +229,7 @@ p {
 
 .btn-secondary:hover {
   -webkit-transform: skewX(-10deg) scale(1.05);
-          transform: skewX(-10deg) scale(1.05);
+  transform: skewX(-10deg) scale(1.05);
 }
 
 .btn-secondary:hover::after {
@@ -253,11 +254,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .bg-video::after {
@@ -268,7 +269,12 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(101.47deg, #0a0c10 26.38%, rgba(10, 12, 16, 0.8) 50.07%, #0a0c10 73.17%);
+  background: linear-gradient(
+    101.47deg,
+    #0a0c10 26.38%,
+    rgba(10, 12, 16, 0.8) 50.07%,
+    #0a0c10 73.17%
+  );
 }
 
 .bg-loader {
@@ -276,11 +282,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   overflow: hidden;
   width: 100%;
   height: 100vh;
@@ -303,11 +309,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .bg-lines svg {
@@ -343,11 +349,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 960px) {
@@ -362,11 +368,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 .logo {
@@ -417,7 +423,13 @@ header {
   top: -40px;
   width: 2px;
   height: 0px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0)), to(#ea1d22));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(255, 0, 0, 0)),
+    to(#ea1d22)
+  );
   background: linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, #ea1d22 100%);
   -webkit-transition: 0.7s ease;
   transition: 0.7s ease;
@@ -443,15 +455,15 @@ header {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .bx::after {
     content: "";
@@ -478,8 +490,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-left: 0;
 }
 
@@ -503,15 +515,15 @@ header {
 
 .nav-social svg:hover path,
 .nav-social svg:hover circle {
-  fill: #f02a2f;
+  fill: #517ed8;
   -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 .logo-spiderman {
   fill: transparent;
   -webkit-animation: logo-spiderman 12s ease infinite alternate;
-          animation: logo-spiderman 12s ease infinite alternate;
+  animation: logo-spiderman 12s ease infinite alternate;
 }
 
 @-webkit-keyframes logo-spiderman {
@@ -552,22 +564,22 @@ header {
 
 .line1 {
   -webkit-animation: line 7s ease infinite alternate;
-          animation: line 7s ease infinite alternate;
+  animation: line 7s ease infinite alternate;
 }
 
 .line2 {
   -webkit-animation: line 4s ease 0.7s infinite alternate;
-          animation: line 4s ease 0.7s infinite alternate;
+  animation: line 4s ease 0.7s infinite alternate;
 }
 
 .line3 {
   -webkit-animation: line 6s ease 2s infinite alternate;
-          animation: line 6s ease 2s infinite alternate;
+  animation: line 6s ease 2s infinite alternate;
 }
 
 .line4 {
   -webkit-animation: line 5s ease infinite alternate;
-          animation: line 5s ease infinite alternate;
+  animation: line 5s ease infinite alternate;
 }
 
 @-webkit-keyframes line {
